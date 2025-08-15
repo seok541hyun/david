@@ -18,6 +18,9 @@ def home():
 @app.route("/menu")
 def menu():
     return render_template("menu.html")
+@app.route("/test1")
+def test1():
+    return render_template("test1.html")
 
 # 이미 아래 코드가 있다면 중복 없이 두기
 if __name__ == "__main__":  
